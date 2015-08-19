@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4230AF71AD2D41900C64023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4230AF61AD2D41900C64023 /* main.m */; };
+		F4230AFA1AD2D41900C64023 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4230AF91AD2D41900C64023 /* AppDelegate.m */; };
+		F4230AFD1AD2D41900C64023 /* Map3Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4230AFB1AD2D41900C64023 /* Map3Player.xcdatamodeld */; };
+		F4230B001AD2D41900C64023 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4230AFF1AD2D41900C64023 /* ViewController.m */; };
+		F4230B051AD2D41900C64023 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4230B041AD2D41900C64023 /* Images.xcassets */; };
+		F4230B141AD2D41900C64023 /* Map3PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4230B131AD2D41900C64023 /* Map3PlayerTests.m */; };
+		F4230B231AD2D4F600C64023 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F4230B1D1AD2D4F600C64023 /* background.png */; };
+		F4230B241AD2D4F600C64023 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = F4230B1E1AD2D4F600C64023 /* image.png */; };
+		F4230B251AD2D4F600C64023 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4230B1F1AD2D4F600C64023 /* Images.xcassets */; };
+		F4230B261AD2D4F600C64023 /* Map3Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4230B201AD2D4F600C64023 /* Map3Player.xcdatamodeld */; };
+		F4230B271AD2D4F600C64023 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4230B221AD2D4F600C64023 /* music.mp3 */; };
+		F4230B2A1AD2D51900C64023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4230B281AD2D51900C64023 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4230B0E1AD2D41900C64023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4230AE91AD2D41900C64023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4230AF01AD2D41900C64023;
+			remoteInfo = Map3Player;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4230AF11AD2D41900C64023 /* Map3Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Map3Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4230AF51AD2D41900C64023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4230AF61AD2D41900C64023 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4230AF81AD2D41900C64023 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4230AF91AD2D41900C64023 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4230AFC1AD2D41900C64023 /* Map3Player.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Map3Player.xcdatamodel; sourceTree = "<group>"; };
+		F4230AFE1AD2D41900C64023 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4230AFF1AD2D41900C64023 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4230B041AD2D41900C64023 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4230B0D1AD2D41900C64023 /* Map3PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Map3PlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4230B121AD2D41900C64023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4230B131AD2D41900C64023 /* Map3PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Map3PlayerTests.m; sourceTree = "<group>"; };
+		F4230B1D1AD2D4F600C64023 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		F4230B1E1AD2D4F600C64023 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		F4230B1F1AD2D4F600C64023 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4230B211AD2D4F600C64023 /* Map3Player.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Map3Player.xcdatamodel; sourceTree = "<group>"; };
+		F4230B221AD2D4F600C64023 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		F4230B291AD2D51900C64023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Map3Player/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4230AEE1AD2D41900C64023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4230B0A1AD2D41900C64023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4230AE81AD2D41900C64023 = {
+			isa = PBXGroup;
+			children = (
+				F4230B281AD2D51900C64023 /* Main.storyboard */,
+				F4230AF31AD2D41900C64023 /* Map3Player */,
+				F4230B101AD2D41900C64023 /* Map3PlayerTests */,
+				F4230AF21AD2D41900C64023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4230AF21AD2D41900C64023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4230AF11AD2D41900C64023 /* Map3Player.app */,
+				F4230B0D1AD2D41900C64023 /* Map3PlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4230AF31AD2D41900C64023 /* Map3Player */ = {
+			isa = PBXGroup;
+			children = (
+				F4230B1D1AD2D4F600C64023 /* background.png */,
+				F4230B1E1AD2D4F600C64023 /* image.png */,
+				F4230B1F1AD2D4F600C64023 /* Images.xcassets */,
+				F4230B201AD2D4F600C64023 /* Map3Player.xcdatamodeld */,
+				F4230B221AD2D4F600C64023 /* music.mp3 */,
+				F4230AF81AD2D41900C64023 /* AppDelegate.h */,
+				F4230AF91AD2D41900C64023 /* AppDelegate.m */,
+				F4230AFE1AD2D41900C64023 /* ViewController.h */,
+				F4230AFF1AD2D41900C64023 /* ViewController.m */,
+				F4230B041AD2D41900C64023 /* Images.xcassets */,
+				F4230AFB1AD2D41900C64023 /* Map3Player.xcdatamodeld */,
+				F4230AF41AD2D41900C64023 /* Supporting Files */,
+			);
+			path = Map3Player;
+			sourceTree = "<group>";
+		};
+		F4230AF41AD2D41900C64023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4230AF51AD2D41900C64023 /* Info.plist */,
+				F4230AF61AD2D41900C64023 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4230B101AD2D41900C64023 /* Map3PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4230B131AD2D41900C64023 /* Map3PlayerTests.m */,
+				F4230B111AD2D41900C64023 /* Supporting Files */,
+			);
+			path = Map3PlayerTests;
+			sourceTree = "<group>";
+		};
+		F4230B111AD2D41900C64023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4230B121AD2D41900C64023 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4230AF01AD2D41900C64023 /* Map3Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4230B171AD2D41900C64023 /* Build configuration list for PBXNativeTarget "Map3Player" */;
+			buildPhases = (
+				F4230AED1AD2D41900C64023 /* Sources */,
+				F4230AEE1AD2D41900C64023 /* Frameworks */,
+				F4230AEF1AD2D41900C64023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Map3Player;
+			productName = Map3Player;
+			productReference = F4230AF11AD2D41900C64023 /* Map3Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4230B0C1AD2D41900C64023 /* Map3PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4230B1A1AD2D41900C64023 /* Build configuration list for PBXNativeTarget "Map3PlayerTests" */;
+			buildPhases = (
+				F4230B091AD2D41900C64023 /* Sources */,
+				F4230B0A1AD2D41900C64023 /* Frameworks */,
+				F4230B0B1AD2D41900C64023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4230B0F1AD2D41900C64023 /* PBXTargetDependency */,
+			);
+			name = Map3PlayerTests;
+			productName = Map3PlayerTests;
+			productReference = F4230B0D1AD2D41900C64023 /* Map3PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4230AE91AD2D41900C64023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "李泽鲁";
+				TargetAttributes = {
+					F4230AF01AD2D41900C64023 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F4230B0C1AD2D41900C64023 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F4230AF01AD2D41900C64023;
+					};
+				};
+			};
+			buildConfigurationList = F4230AEC1AD2D41900C64023 /* Build configuration list for PBXProject "Map3Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4230AE81AD2D41900C64023;
+			productRefGroup = F4230AF21AD2D41900C64023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4230AF01AD2D41900C64023 /* Map3Player */,
+				F4230B0C1AD2D41900C64023 /* Map3PlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4230AEF1AD2D41900C64023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4230B251AD2D4F600C64023 /* Images.xcassets in Resources */,
+				F4230B271AD2D4F600C64023 /* music.mp3 in Resources */,
+				F4230B231AD2D4F600C64023 /* background.png in Resources */,
+				F4230B2A1AD2D51900C64023 /* Main.storyboard in Resources */,
+				F4230B051AD2D41900C64023 /* Images.xcassets in Resources */,
+				F4230B241AD2D4F600C64023 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4230B0B1AD2D41900C64023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4230AED1AD2D41900C64023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4230AFA1AD2D41900C64023 /* AppDelegate.m in Sources */,
+				F4230AF71AD2D41900C64023 /* main.m in Sources */,
+				F4230B261AD2D4F600C64023 /* Map3Player.xcdatamodeld in Sources */,
+				F4230B001AD2D41900C64023 /* ViewController.m in Sources */,
+				F4230AFD1AD2D41900C64023 /* Map3Player.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4230B091AD2D41900C64023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4230B141AD2D41900C64023 /* Map3PlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4230B0F1AD2D41900C64023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4230AF01AD2D41900C64023 /* Map3Player */;
+			targetProxy = F4230B0E1AD2D41900C64023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4230B281AD2D51900C64023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4230B291AD2D51900C64023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4230B151AD2D41900C64023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4230B161AD2D41900C64023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4230B181AD2D41900C64023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Map3Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4230B191AD2D41900C64023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Map3Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4230B1B1AD2D41900C64023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Map3PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map3Player.app/Map3Player";
+			};
+			name = Debug;
+		};
+		F4230B1C1AD2D41900C64023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Map3PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map3Player.app/Map3Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4230AEC1AD2D41900C64023 /* Build configuration list for PBXProject "Map3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4230B151AD2D41900C64023 /* Debug */,
+				F4230B161AD2D41900C64023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4230B171AD2D41900C64023 /* Build configuration list for PBXNativeTarget "Map3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4230B181AD2D41900C64023 /* Debug */,
+				F4230B191AD2D41900C64023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4230B1A1AD2D41900C64023 /* Build configuration list for PBXNativeTarget "Map3PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4230B1B1AD2D41900C64023 /* Debug */,
+				F4230B1C1AD2D41900C64023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4230AFB1AD2D41900C64023 /* Map3Player.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4230AFC1AD2D41900C64023 /* Map3Player.xcdatamodel */,
+			);
+			currentVersion = F4230AFC1AD2D41900C64023 /* Map3Player.xcdatamodel */;
+			path = Map3Player.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F4230B201AD2D4F600C64023 /* Map3Player.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4230B211AD2D4F600C64023 /* Map3Player.xcdatamodel */,
+			);
+			currentVersion = F4230B211AD2D4F600C64023 /* Map3Player.xcdatamodel */;
+			path = Map3Player.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4230AE91AD2D41900C64023 /* Project object */;
+}
